@@ -15,6 +15,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: max-content;
 }
 
 button {
@@ -51,6 +52,7 @@ button:focus {
   bottom: 0;
   /* opacity: 0.5; */
   z-index: -1;
+  width: 100%;
 }
 
 /* open screen */
@@ -177,6 +179,10 @@ button:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
 }
 
 .loader {
